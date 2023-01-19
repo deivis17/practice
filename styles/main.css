@@ -124,3 +124,10 @@ hr{
 .box h2, p, a{
     margin-top:5px;
 }
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    margin-top:20px;
+}
