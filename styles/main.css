@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0,0,0,1);
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    padding:0.1px;
+}
+
+.container{
+    margin:auto;
+    width:80%;
+}
+
+.nav-main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+}
+
+.logo-brand{
+    width:50px;
+    border-radius: 100%;
+}
+
+.nav-menu{
+    display:flex;
+    flex:1;
+    margin:30px;  
+}
+
+.nav-menu li{
+    margin-left:70px;
+}
+
+.nav-menu li a{
+    padding:10px;
+}
+
+.nav-menu li a:hover{
+    text-decoration: underline;
+}
+
+.nav-right{
+    display:flex;
+}
+
+.nav-right li{
+    margin-left:40px;
+}
+
+.nav-right li i{
+   cursor: pointer;
+}
+
+.nav-min{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(255, 241, 241, 0.205);
+    width:180px;
+    height: 100%;
+    text-align: center;
+    transform: translateX(-400px);
+}
+
+.show{
+    transform: translateX(0px);
+    transition: transform 0.7s ease-in-out;
+}
+
+.nav-min ul{
+    padding:60px 0;
+}
+
+.nav-min ul li{
+    padding:5px;
+}
+
+.nav-min ul li a:hover{
+    text-decoration: underline;
+}
