@@ -98,3 +98,29 @@ hr{
 .nav-min ul li a:hover{
     text-decoration: underline;
 }
+
+.slideshow{
+    background: url('https://picsum.photos/1000/600') no-repeat center center/cover;
+    padding: 180px 200px;
+    height:300px;
+}
+
+.box{
+    background-color: rgba(255, 241, 241, 0.375);
+    height: 140px;
+    padding:10px 120px;
+    color:black;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.578);
+}
+.btn:hover{
+    background-color: rgba(36, 36, 36, 0.578);
+}
+
+.box h2, p, a{
+    margin-top:5px;
+}
